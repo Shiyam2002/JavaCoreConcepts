@@ -25,7 +25,13 @@ public class CreateType01 {
    created, and false if the file already exists
    
   -Note that the method is enclosed in a try...catch block.
-   This is necessary because it throws an IOException if an error occurs.
+   This is necessary because it throws an IOException if an error occurs.It also
+   throws SecurityException if a security manager exists and its SecurityManager.
+   checkWriter(java.lang.String) method denies write access to the file.
+   
+  -We can pass the file name or absolute path or relative path as an argument
+   in the File class object. For a non-absolute path, File object tries to locate
+   the file in the current directory.
    
   -To create a file in a specific directory (requires permission), 
    specify the path of the file and use double backslashes to escape the "\"
