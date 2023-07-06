@@ -22,5 +22,16 @@ public class CreateType02 {
 			e.printStackTrace();
 		}
 	}
-
 }
+
+/*
+  -Package Name: java.io package
+  -We use FileOutputStream class when we need to write some data into
+   the created file.
+  -It stores the data into bytes.
+  -The FileOutputStream class provides a constructor to create a file.
+  -The signature of the constructor is:
+  		Parameters
+		 name: is the file name
+		 append: if true, byte will be written to the end of the file, not in the beginning.
+  */
