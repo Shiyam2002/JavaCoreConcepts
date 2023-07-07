@@ -32,6 +32,6 @@ public class CreateType02 {
   -The FileOutputStream class provides a constructor to create a file.
   -The signature of the constructor is:
   		Parameters
-		 name: is the file name
+		 name:   is the file name
 		 append: if true, byte will be written to the end of the file, not in the beginning.
   */
