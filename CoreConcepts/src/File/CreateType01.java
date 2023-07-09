@@ -6,7 +6,7 @@ import java.io.IOException;
 public class CreateType01 {
 
 	public static File main(String[] args) throws IOException {
-		File file = new File("C:\\Users\\ramya\\Desktop\\shiyam\\dummy");
+		File file = new File("C:\\Users\\ramya\\Desktop\\shiyam\\dummy.txt");
 		if(file.createNewFile()) {
 			System.out.println("File created");
 		}

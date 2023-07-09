@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 public class CreateType03 {
 	
 	public static void main(String[] args) {
-		Path path = Paths.get("c:\\demo\\dummy.txt");
+		Path path = Paths.get("C:\\Users\\ramya\\Desktop\\shiyam\\dummy.txt");
 		try {
 			Path p = Files.createFile(path);
 			System.out.println("File Create at the Path :"+path);

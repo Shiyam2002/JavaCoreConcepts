@@ -1,11 +1,11 @@
 package File;
 
-import java.io.File;
+import java.io.File; 
 import java.io.IOException;
 import java.util.Scanner;
 import File.CreateType01;
 
-public class Deleting_file {
+public class Deleting_type01 {
 	public static void main(String[] args) throws IOException{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Does the file you gonna delete exist ?");
