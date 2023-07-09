@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class CreateType01 {
 
-	public static void main(String[] args) throws IOException {
+	public static File main(String[] args) throws IOException {
 		File file = new File("C:\\Users\\ramya\\Desktop\\shiyam\\dummy");
 		if(file.createNewFile()) {
 			System.out.println("File created");
@@ -13,6 +13,7 @@ public class CreateType01 {
 		else {
 			System.out.println("File Existings");
 		}
+		return file;
 	}
 }
 
