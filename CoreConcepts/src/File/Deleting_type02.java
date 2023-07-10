@@ -23,3 +23,9 @@ public class Deleting_type02 {
 		System.out.println("Deletion successful");
 	}
 }
+
+ /*
+   This method deletes a file if it exists. It also deletes a directory
+   mentioned in the path only if the directory is empty. 
+   
+  */ 
