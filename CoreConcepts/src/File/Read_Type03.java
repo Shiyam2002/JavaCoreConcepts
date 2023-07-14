@@ -14,5 +14,4 @@ public class Read_Type03 {
 			System.out.println(value);
 		}
 	}
-
 }
