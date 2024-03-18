@@ -4,15 +4,7 @@ import java.util.Arrays;
 
 public class Reverse_Array {
 
-	public static void main(String[] args) {
-		int[] arr = {1,3,5,7,9};
-		//reverseArray(arr);
-		//reverseArrayUsingTemp(arr);
-		reverseArrayRecursion(arr,0,arr.length-1);
-		System.out.println(Arrays.toString(arr));
-	}
-
-	private static void reverseArrayRecursion(int[] arr, int start, int end) {
+	public static void reverseArrayRecursion(int[] arr, int start, int end) {
 		int temp;
 		if(start < end) {
 			temp = arr[start];
@@ -21,10 +13,9 @@ public class Reverse_Array {
 			start++;
 			end--;
 		}
-		
 	}
 
-	private static void reverseArrayUsingTemp(int[] arr) {
+	public static void reverseArrayUsingTemp(int[] arr) {
 		int temp, start,end;
 		start =0;
 		end = arr.length-1;
@@ -36,10 +27,9 @@ public class Reverse_Array {
 			end--;
 		}
 		System.out.println(Arrays.toString(arr));
-		
 	}
 
-	private static void reverseArray(int[] arr) {
+	public static void reverseArray(int[] arr) {
 		int[] ReverseArr = new int[arr.length];
 		
 		for(int i=arr.length-1; i>=0 ;i--) {
@@ -49,6 +39,11 @@ public class Reverse_Array {
 		System.out.println(Arrays.toString(ReverseArr));	
 	}
 	
-	
-
+	public static void main(String[] args) {
+		int[] arr = {1,3,5,7,9};
+		//reverseArray(arr);
+		//reverseArrayUsingTemp(arr);
+		//reverseArrayRecursion(arr,0,arr.length-1);
+		//System.out.println(Arrays.toString(arr));
+	}
 }
